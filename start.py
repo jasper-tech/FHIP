@@ -20,3 +20,9 @@ file.close()
 file = open("C:/Users/Administrator/OneDrive/Pictures/Documents/Custom Project Designs/FHIP/First.txt","r")
 print(file.readlines())
 file.close()
+
+
+#Read contents up to index 3 from each line
+file = open("C:/Users/Administrator/OneDrive/Pictures/Documents/Custom Project Designs/FHIP/First.txt","r")
+print(file.readline(3))
+file.close()
